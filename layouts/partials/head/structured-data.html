@@ -40,6 +40,9 @@
         {{ with .Site.Params.schemaGitHub -}}
         , {{ . }}
         {{ end -}}
+        {{ with .Site.Params.schemaBitbucket -}}
+        , {{ . }}
+        {{ end -}}
       ],
       {{ if eq .Site.Params.schemaType "Organization" -}}
         "logo": {
