@@ -1,0 +1,23 @@
+{
+    "error1": "Sorry, the page can’t be found",
+    "error2": "The page you were looking for appears to have been moved, deleted or does not exist.",
+    "error3": "Back to Homepage",
+    "features_title1": "ID Management",
+    "features_title2": "Dublettenerkennung",
+    "features_title3": "Re-Identifizierung",
+    "features_title4": "Audit Trail",
+    "features_title5": "sMCP",
+    "features_title6": "Flexibler Integration",
+    "features_section_title": "Hauptfunktionen",
+    "contact": "Need Help?",
+    "contact2": "Our support team will get back to you ASAP via email.",
+    "contact3": "Contact",
+    "contact4": "Newsletter",
+    "footer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "header_title1": "Home",
+    "header_title2": "About",
+    "header_title3": "Contact",
+    "hero1": "Mainzelliste",
+    "hero2": "Die Mainzelliste ist ein webbasierter Pseudonymisierungsdienst, welcher die Erzeugung von Personenidentifikatoren (PID) aus identifizierenden Attributen (IDAT) erlaubt. Dank der Record-Linkage-Funktionalität ist dies auch bei wechselnder Qualität der identifizierenden Daten möglich. Ihre Funktionen werden über eine REST-Schnittstelle bereitgestellt, die besonders flexible Integration durch andere Software ermöglicht.",
+    "hero_screenshot": "/images/about/mainzelliste-screenshot-edit.jpeg"
+}
