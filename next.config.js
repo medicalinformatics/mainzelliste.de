@@ -12,6 +12,4 @@ const nextConfig = {
   },
 };
 
-const nextTranslate = require('next-translate-plugin');
-
-module.exports = nextConfig, nextTranslate();
+module.exports = nextConfig;
