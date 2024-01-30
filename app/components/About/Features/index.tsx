@@ -7,7 +7,7 @@ const Features = () => {
     <>
         <div className="container py-16 mt-20 md:py-20 lg:py-28">
           <SectionTitle
-            title="Hauptfunktionen"
+            title="Main functions"/*"Hauptfunktionen"*/
             paragraph=""
             center
           />

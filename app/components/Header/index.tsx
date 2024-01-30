@@ -27,12 +27,18 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
-  let sections = document.querySelectorAll("section[id]");
-  let $home = document.getElementById('home_');
-  let $about = document.getElementById('about_');
-  let $contact = document.getElementById('contact_');
+  let sections: NodeListOf<Element>;
+  let $home: HTMLElement;
+  let $about: HTMLElement;
+  let $contact: HTMLElement;
 
-  window.addEventListener("scroll", navHighlighter);
+  if (typeof document !== 'undefined') {
+    sections = document.querySelectorAll("section[id]");
+    $home = document.getElementById('home_');
+    $about = document.getElementById('about_');
+    $contact = document.getElementById('contact_');
+    window.addEventListener("scroll", navHighlighter);
+  }
 
   function navHighlighter() {
 
@@ -42,7 +48,6 @@ const Header = () => {
     sections.forEach(current => {
       if(!bool) {
         const sectionHeight = current.scrollHeight - 300;
-
         if ( (window.innerHeight + scrollY) >= document.body.offsetHeight - 2 ) {
           updateHeader("contact");
           bool = true;
@@ -81,6 +86,7 @@ const Header = () => {
       }
     }
   }
+
 
   return (
     <>
