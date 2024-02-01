@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+//import useTranslation from "next-translate/useTranslation";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,6 +9,11 @@ export const metadata: Metadata = {
 };
 
 const ErrorPage = () => {
+  /*const { t } = useTranslation('common')
+  const ERROR_ONE = t('error1')
+  const ERROR_TWO = t('error2')
+  const ERROR_THREE = t('error3')*/
+  
   return (
     <>
       <section className="relative z-10 pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[300px]">

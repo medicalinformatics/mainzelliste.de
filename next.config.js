@@ -1,5 +1,10 @@
+//const nextTranslate = require('next-translate-plugin');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  /*experimental: {
+    appDir: true
+  },*/
   images: {
     domains: ["localhost"],
     remotePatterns: [
@@ -12,4 +17,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = /*nextTranslate(*/nextConfig/*)*/;
