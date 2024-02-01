@@ -11,9 +11,9 @@ const Footer = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full flex px-4 mb-12">
-              <div className="w-[200px] flex-shrink-0">
-                <Link href="/" className="mb-4 inline-block">
+            <div className="w-full flex px-4 mb-6">
+              <div className="w-[200px] flex-shrink-0 items-center">
+                <Link href="/" className="inline-block">
                   <Image
                     src="/images/logo/mainzelliste-logo-650-light.png"
                     alt="logo"
@@ -30,22 +30,17 @@ const Footer = () => {
                   />
                 </Link>
                 
-                <div className="mb-100 flex items-center ml-3">
-                  <a
+            
+              </div>
+              <div className="items-center flex ml-auto mb-2 w-[130px] px-4">
+                <a
                     href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
                     target="_blank"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <Image
-                      className="hidden dark:block"
-                      src="/images/footer/bitbucket-logo.png"
-                      alt="bitbucket"
-                      width={30}
-                      height={30}
-                    />
-                    <Image
-                      className="block dark:hidden"
+                      className="block"
                       src="/images/footer/bitbucket-logo.png"
                       alt="bitbucket"
                       width={30}
@@ -56,7 +51,7 @@ const Footer = () => {
                     href="https://github.com/medicalinformatics/mainzelliste-gui"
                     target="_blank"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="float-right"
                   >
                     <Image
                       className="hidden dark:block"
@@ -73,14 +68,6 @@ const Footer = () => {
                       height={30}
                     />
                   </a>
-                </div>
-              </div>
-              <div className="ml-10 flex-grow-[1] dark:text-body-color-dark text-base leading-relaxed text-body-color mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer lobortis.
               </div>
             </div>
           </div>

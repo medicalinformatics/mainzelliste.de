@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Screenshot from "./screenshot";
 import Brands from "./brands";
 
@@ -23,20 +24,21 @@ const Hero = () => {
                   {/*Die Mainzelliste ist ein webbasierter Pseudonymisierungsdienst, welcher die Erzeugung von Personenidentifikatoren (PID) aus identifizierenden Attributen (IDAT) erlaubt. Dank der Record-Linkage-Funktionalität ist dies auch bei wechselnder Qualität der identifizierenden Daten möglich. Ihre Funktionen werden über eine REST-Schnittstelle bereitgestellt, die besonders flexible Integration durch andere Software ermöglicht.*/}
                   The Mainzelliste is a web-based pseudonymization service that allows the generation of personal identifiers (PID) from identifying attributes (IDAT). Thanks to the record linkage functionality, this is possible even when the quality of the identifying data changes. Their functions are implemented via a REST interface.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-10 sm:space-y-0">
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-20 sm:space-y-0">
                 <Link
-                    href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
-                    target="_blank"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Backend
-                  </Link>
-                  <Link
                     href="https://github.com/medicalinformatics/mainzelliste-gui"
                     target="_blank"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Frontend
+                  </Link>
+                  
+                  <Link
+                    href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
+                    target="_blank"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Backend
                   </Link>
                 </div>
               </div>

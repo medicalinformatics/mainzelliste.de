@@ -17,7 +17,7 @@ const Screenshot = () => {
   );
 
   return (
-      <div className="container pt-16 md:pt-20 lg:pt-28">
+      <div className="container pt-20 mt-40">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
