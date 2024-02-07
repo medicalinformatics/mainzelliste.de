@@ -1,15 +1,14 @@
-![Mainzelliste Logo](./doc/images/mainzelliste-logo-670.png)
+![Mainzelliste Logo](./public/images/logo/mainzelliste-logo-650.png)
 
 ## Developer Guide
 ### Running locally
 1. Run `npm install` in the terminal in your project directory.
 2. Run `npm run dev` for a dev server. Navigate to `http://localhost:3000`.
 
-### Deploy with docker
+### Deploy with docker (https://nextjs.org/docs/pages/building-your-application/deploying#docker-image)
 1. run `npm install`
 2. run `docker build -t nextjs-docker .`
 3. run `docker run -p 3000:3000 nextjs-docker`
-(https://nextjs.org/docs/pages/building-your-application/deploying#docker-image)
 
 ## License
 MIT License
