@@ -14,12 +14,12 @@ export default function RootLayout({
 }) {
   const [myLocation, setMyLocation] = useState<Location | null>(null);
 
-  useEffect(() => {
+  useEffect( () => {
     setMyLocation(window.location);
     if(myLocation != null && myLocation.pathname != "/error" && myLocation.pathname != "/") {
       myLocation.pathname = "/error";
     }
-  });
+  }, [myLocation]);
 
   return (
     <html suppressHydrationWarning lang="en">

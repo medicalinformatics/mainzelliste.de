@@ -35,6 +35,7 @@ const Footer = () => {
               <div className="items-center flex ml-auto mb-2 w-[130px] px-4">
                 <a
                     href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
+                    rel="noopener noreferrer"
                     target="_blank"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
@@ -49,6 +50,7 @@ const Footer = () => {
                   </a>
                   <a
                     href="https://github.com/medicalinformatics/mainzelliste-gui"
+                    rel="noopener noreferrer"
                     target="_blank"
                     aria-label="social-link"
                     className="float-right"
