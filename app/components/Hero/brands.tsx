@@ -17,12 +17,14 @@ const Brands = () => {
                     className="hidden dark:block mt-2"
                     src={"/images/brands/logo-dkfz-light.png"}
                     alt={"DKFZ"}
+                    sizes="100vw, 50vw, 33vw"
                     fill
                   />
                   <Image
                     className="block dark:hidden mt-2"
                     src={"/images/brands/logo-dkfz.png"}
                     alt={"DKFZ"}
+                    sizes="100vw, 50vw, 33vw"
                     fill
                   />
                 </a>
@@ -38,12 +40,14 @@ const Brands = () => {
                     className="hidden dark:block"
                     src={"/images/brands/umm-logo-light.png"}
                     alt={"Universitätsmedizin Mannheim"}
+                    sizes="100vw, 50vw, 33vw"
                     fill
                   />
                   <Image
                     className="block dark:hidden"
                     src={"/images/brands/umm-logo.png"}
                     alt={"Universitätsmedizin Mannheim"}
+                    sizes="100vw, 50vw, 33vw"
                     fill
                   />
                 </a>
@@ -59,12 +63,14 @@ const Brands = () => {
                     className="hidden dark:block"
                     src={"/images/brands/medma-logo-light.png"}
                     alt={"Medizinische Fakultät Mannheim"}
+                    sizes="100vw, 50vw, 33vw"
                     fill
                   />
                   <Image
                     className="block dark:hidden"
                     src={"/images/brands/medma-logo.png"}
                     alt={"Medizinische Fakultät Mannheim"}
+                    sizes="100vw, 50vw, 33vw"
                     fill
                   />
                 </a>

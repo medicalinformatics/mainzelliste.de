@@ -61,6 +61,11 @@ const Footer = () => {
                       alt="github"
                       width={30}
                       height={30}
+                      style={{
+                        width: 30,
+                        height: 30
+                      }}
+                     
                     />
                     <Image
                       className="block dark:hidden"
@@ -68,6 +73,10 @@ const Footer = () => {
                       alt="github"
                       width={30}
                       height={30}
+                      style={{
+                        width: 30,
+                        height: 30
+                      }}
                     />
                   </a>
               </div>
