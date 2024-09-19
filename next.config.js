@@ -10,7 +10,8 @@ const nextConfig = {
       },
     ],
   },
-  output: "standalone",
+  basePath: "/mainzelliste.de",
+  output: "export",
 };
 
 module.exports = nextConfig;
