@@ -9,9 +9,7 @@ const nextConfig = {
         port: "",
       },
     ],
-  },
-  basePath: "/mainzelliste.de",
-  output: "export",
+  }
 };
 
 module.exports = nextConfig;
