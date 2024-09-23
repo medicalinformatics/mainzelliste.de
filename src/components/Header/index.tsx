@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { Link as ScrollLink } from "react-scroll";
+import { basePath } from "../../../next.config";
 
 const Header = () => {
   // Navbar toggle
@@ -106,14 +107,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                    src="/images/logo/mainzelliste-logo-650-light.png"
+                    src={basePath + "/images/logo/mainzelliste-logo-650-light.png"}
                     alt="logo"
                     className="w-full hidden dark:block"
                     width={260}
                     height={70}
                 />
                 <Image
-                    src="/images/logo/mainzelliste-logo-650.png"
+                    src={basePath + "/images/logo/mainzelliste-logo-650.png"}
                   alt="logo"
                     className="w-full block dark:hidden"
                   width={260}

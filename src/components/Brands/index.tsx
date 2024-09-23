@@ -1,6 +1,7 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
+import {basePath} from "../../../next.config";
 
 const Brands = () => {
   return (
@@ -33,8 +34,8 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         rel="nofollow noreferrer"
         className="relative h-16 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
       >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
+        <Image src={basePath + imageLight} alt={name} fill className="hidden dark:block" />
+        <Image src={basePath + image} alt={name} fill className="block dark:hidden" />
       </a>
     </div>
   );
