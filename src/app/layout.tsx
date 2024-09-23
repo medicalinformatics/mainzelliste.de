@@ -1,5 +1,6 @@
 "use client";
 
+import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
@@ -11,14 +12,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [myLocation, setMyLocation] = useState<Location | null>(null);
-
-  useEffect( () => {
-    setMyLocation(window.location);
-    if(myLocation != null && myLocation.pathname != "/error" && myLocation.pathname != "/") {
-      myLocation.pathname = "/error";
-    }
-  }, [myLocation]);
 
   return (
     <html suppressHydrationWarning lang="en">
@@ -39,5 +32,3 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
-import { useEffect, useState } from "react";
-import ScrollToTop from "@/components/ScrollToTop";

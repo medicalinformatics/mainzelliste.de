@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { basePath } from "../../../next.config";
 
 const Screenshot = () => {
     return (
@@ -10,7 +11,7 @@ const Screenshot = () => {
                 className="relative mx-auto aspect-[2428/1034]"
               >
                 <Image
-                    src="/images/hero/mainzelliste-screenshot-en-edit.jpeg"
+                    src={ basePath + "/images/hero/mainzelliste-screenshot-en-edit.jpeg" }
                     alt="ui-screenshot"
                     fill
                     className="shadow-2xl mx-auto max-w-full dark:drop-shadow-none lg:mr-0"
