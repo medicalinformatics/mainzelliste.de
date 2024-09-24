@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import {basePath} from "../../../next.config";
+import {getBasePath} from "@/app/base-path-loader"
 
 const Footer = () => {
   return (
@@ -16,14 +16,14 @@ const Footer = () => {
               <div className="w-[200px] flex-shrink-0 items-center">
                 <Link href="/" className="inline-block">
                   <Image
-                    src={basePath + "/images/logo/mainzelliste-logo-650-light.png"}
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
                     alt="logo"
                     className="w-full hidden dark:block"
                     width={149}
                     height={40}
                   />
                   <Image
-                    src={basePath + "/images/logo/mainzelliste-logo-650.png"}
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
                     alt="logo"
                     className="w-full block dark:hidden"
                     width={149}
@@ -43,7 +43,7 @@ const Footer = () => {
                   >
                     <Image
                       className="block"
-                      src={basePath + "/images/footer/bitbucket-logo.png"}
+                      src={getBasePath() + "/images/footer/bitbucket-logo.png"}
                       alt="bitbucket"
                       width={30}
                       height={30}
@@ -58,7 +58,7 @@ const Footer = () => {
                   >
                     <Image
                       className="hidden dark:block"
-                      src={basePath + "/images/footer/github-mark-light.png"}
+                      src={getBasePath() + "/images/footer/github-mark-light.png"}
                       alt="github"
                       width={30}
                       height={30}
@@ -70,7 +70,7 @@ const Footer = () => {
                     />
                     <Image
                       className="block dark:hidden"
-                      src={basePath + "/images/footer/github-mark.png"}
+                      src={getBasePath() + "/images/footer/github-mark.png"}
                       alt="github"
                       width={30}
                       height={30}
