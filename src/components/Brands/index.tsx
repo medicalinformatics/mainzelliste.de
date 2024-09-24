@@ -27,7 +27,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { href, image, imageLight, name, width } = brand;
 
   return (
-    <div className={ "flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/3 md:w-1/5 lg:w-1/5" +" xl:" + width}>
+    <div className={ "flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/3 md:" + width + " lg:" + width +" xl:" + width}>
       <a
         href={href}
         target="_blank"

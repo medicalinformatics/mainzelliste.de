@@ -29,13 +29,13 @@ const Header = () => {
 
   let sections: NodeListOf<Element>;
   let $home: HTMLElement;
-  let $about: HTMLElement;
+  let $features: HTMLElement;
   let $contact: HTMLElement;
 
   if (typeof document !== 'undefined') {
     sections = document.querySelectorAll("section[id]");
     $home = document.getElementById('home_');
-    $about = document.getElementById('about_');
+    $features = document.getElementById('features_');
     $contact = document.getElementById('contact_');
     window.addEventListener("scroll", navHighlighter);
   }
@@ -65,19 +65,19 @@ const Header = () => {
     switch (section) {
       case "home": {
         $home.className = "text-primary dark:text-white"
-        $about.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
-      case "about": {
+      case "features": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $about.className = "text-primary dark:text-white"
+        $features.className = "text-primary dark:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "contact": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $about.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-primary dark:text-white"
         break;
       }
@@ -110,15 +110,15 @@ const Header = () => {
                     src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
                     alt="logo"
                     className="w-full hidden dark:block"
-                    width={260}
-                    height={70}
+                    width={251}
+                    height={46}
                 />
                 <Image
                     src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
                   alt="logo"
                     className="w-full block dark:hidden"
-                  width={260}
-                  height={70}
+                  width={251}
+                  height={46}
                 />
               </Link>
             </div>
