@@ -1,11 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['localhost','https://medicalinformatics.github.io/mainzelliste.de'],
+    domains: ["localhost"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+      },
+    ],
   },
-  basePath: "/mainzelliste.de",
-  output: "export",
-  reactStrictMode: true,
+  output: "standalone",
 };
 
 module.exports = nextConfig;
