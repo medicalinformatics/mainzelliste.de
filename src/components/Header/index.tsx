@@ -109,14 +109,14 @@ const Header = () => {
                 <Image
                     src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
                     alt="logo"
-                    className="w-full hidden dark:block"
+                    className="hidden dark:block"
                     width={251}
                     height={46}
                 />
                 <Image
                     src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
                   alt="logo"
-                    className="w-full block dark:hidden"
+                    className="block dark:hidden"
                   width={251}
                   height={46}
                 />
