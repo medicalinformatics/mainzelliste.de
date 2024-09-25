@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { Link as ScrollLink } from "react-scroll";
+import {getBasePath} from "@/app/base-path-loader"
 
 const Header = () => {
   // Navbar toggle
@@ -22,20 +23,19 @@ const Header = () => {
       setSticky(false);
     }
   };
-
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
   let sections: NodeListOf<Element>;
   let $home: HTMLElement;
-  let $about: HTMLElement;
+  let $features: HTMLElement;
   let $contact: HTMLElement;
 
   if (typeof document !== 'undefined') {
     sections = document.querySelectorAll("section[id]");
     $home = document.getElementById('home_');
-    $about = document.getElementById('about_');
+    $features = document.getElementById('features_');
     $contact = document.getElementById('contact_');
     window.addEventListener("scroll", navHighlighter);
   }
@@ -54,10 +54,10 @@ const Header = () => {
         } else if (scrollY < sectionHeight) {
           updateHeader(current.getAttribute("id"));
           bool = true;
-        } else {
+    } else {
           scrollY -= (sectionHeight + 300);
         }
-      }
+    }
     });
   }
 
@@ -65,19 +65,19 @@ const Header = () => {
     switch (section) {
       case "home": {
         $home.className = "text-primary dark:text-white"
-        $about.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
-      case "about": {
+      case "features": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $about.className = "text-primary dark:text-white"
+        $features.className = "text-primary dark:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "contact": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $about.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-primary dark:text-white"
         break;
       }
@@ -107,19 +107,19 @@ const Header = () => {
                 } `}
               >
                 <Image
-                    src="/images/logo/mainzelliste-logo-650-light.png"
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
                     alt="logo"
                     className="w-full hidden dark:block"
-                    width={260}
-                    height={70}
-                  />
-                  <Image
-                    src="/images/logo/mainzelliste-logo-650.png"
-                    alt="logo"
+                    width={251}
+                    height={46}
+                />
+                <Image
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
+                  alt="logo"
                     className="w-full block dark:hidden"
-                    width={260}
-                    height={70}
-                  />
+                  width={251}
+                  height={46}
+                />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -163,8 +163,8 @@ const Header = () => {
                             to={menuItem.path}
                             duration={500}
                             className="flex py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
-                          >
-                            {menuItem.title}
+                            >
+                              {menuItem.title}
                           </ScrollLink>
                       </li>
                     ))}
@@ -172,11 +172,11 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <ThemeToggler />
+                  <ThemeToggler />
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </header>
     </>
   );

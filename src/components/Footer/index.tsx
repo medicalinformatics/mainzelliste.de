@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import {getBasePath} from "@/app/base-path-loader"
 
 const Footer = () => {
   return (
@@ -15,22 +16,22 @@ const Footer = () => {
               <div className="w-[200px] flex-shrink-0 items-center">
                 <Link href="/" className="inline-block">
                   <Image
-                    src="/images/logo/mainzelliste-logo-650-light.png"
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
                     alt="logo"
                     className="w-full hidden dark:block"
                     width={149}
                     height={40}
                   />
                   <Image
-                    src="/images/logo/mainzelliste-logo-650.png"
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
                     alt="logo"
                     className="w-full block dark:hidden"
                     width={149}
                     height={40}
                   />
                 </Link>
-                
-            
+
+
               </div>
               <div className="items-center flex ml-auto mb-2 w-[130px] px-4">
                 <a
@@ -42,7 +43,7 @@ const Footer = () => {
                   >
                     <Image
                       className="block"
-                      src="/images/footer/bitbucket-logo.png"
+                      src={getBasePath() + "/images/footer/bitbucket-logo.png"}
                       alt="bitbucket"
                       width={30}
                       height={30}
@@ -57,7 +58,7 @@ const Footer = () => {
                   >
                     <Image
                       className="hidden dark:block"
-                      src="/images/footer/github-mark-light.png"
+                      src={getBasePath() + "/images/footer/github-mark-light.png"}
                       alt="github"
                       width={30}
                       height={30}
@@ -65,11 +66,11 @@ const Footer = () => {
                         width: 30,
                         height: 30
                       }}
-                     
+
                     />
                     <Image
                       className="block dark:hidden"
-                      src="/images/footer/github-mark.png"
+                      src={getBasePath() + "/images/footer/github-mark.png"}
                       alt="github"
                       width={30}
                       height={30}

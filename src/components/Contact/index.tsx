@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-black">
+    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -19,7 +19,7 @@ const Contact = () => {
               <form>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full pt-2">
-                    <Link 
+                    <Link
                       href="mailto:info@mainzelliste.de"
                       className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary mx-6 px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90">
                       Contact

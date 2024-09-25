@@ -1,9 +1,10 @@
-import Contact from "@/app/components/Contact";
-import Hero from "@/app/components/Hero";
-import { Metadata } from "next";
-import About from "@/app/components/About";
-import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
+import Contact from "@/components/Contact";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import {Metadata} from "next";
+import Features from "@/components/Features";
+import Brands from "@/components/Brands";
 
 export const metadata: Metadata = {
   title: "Mainzelliste",
@@ -16,7 +17,8 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <About />
+      <Features />
+      <Brands />
       <Contact />
       <Footer />
     </>
