@@ -5,44 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/base-path-loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/AboutSectionOne.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brands/brandsData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brands/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/brand.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/nextjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nextjs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/brands/logo-dkfz-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/brands/logo-dkfz-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/brands/logo-dkfz.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/brands/logo-dkfz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/brands/medma-logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/brands/medma-logo-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/brands/medma-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/brands/medma-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo/mainzelliste-logo-650-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo/mainzelliste-logo-650-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo/mainzelliste-logo-650.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo/mainzelliste-logo-650.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/error/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/error/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/AboutSectionTwo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Features/SingleFeature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Features/SingleFeature.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Features/featuresData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Features/featuresData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Features/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Features/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/SectionTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/menuData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/menuData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/brands.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/screenshot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/screenshot.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/RelatedPost.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/SharePost.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/SingleBlog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/TagButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/blogData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Breadcrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/ScrollUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/NewsLatterBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Testimonials/SingleTestimonial.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Video/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/blog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/testimonial.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +86,7 @@
       <updated>1727080149339</updated>
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
-      <workItem from="1727247496720" duration="926000" />
+      <workItem from="1727247496720" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -136,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727082901260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: update next js template, change base color and logo size, add 'features' to menu and fix base image path">
+      <option name="closed" value="true" />
+      <created>1727248583930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727248583930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: update next js template" />
     <MESSAGE value="refactor: move app to src" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: move app to src" />
+    <MESSAGE value="refactor: update templates" />
+    <MESSAGE value="refactor: update next js template, change base color and logo size, add 'features' to menu and fix base image path" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: update next js template, change base color and logo size, add 'features' to menu and fix base image path" />
   </component>
 </project>
