@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/RelatedPost.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/SharePost.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/SingleBlog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/TagButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/blogData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/Breadcrumb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/ScrollUp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/NewsLatterBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Testimonials/SingleTestimonial.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/blog.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/testimonial.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/redoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/redoc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,25 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/experiment/project/mainzelliste.site&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\experiment\\project\\mainzelliste.site\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/experiment/project/redoc-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "ts.external.directory.path": "C:\\experiment\\project\\mainzelliste.site\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\experiment\project\mainzelliste.site\src" />
@@ -86,7 +74,8 @@
       <updated>1727080149339</updated>
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
-      <workItem from="1727247496720" duration="1318000" />
+      <workItem from="1727247496720" duration="2250000" />
+      <workItem from="1727386379479" duration="4673000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -120,7 +109,79 @@
       <option name="project" value="LOCAL" />
       <updated>1727248583930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: some module from the base template">
+      <option name="closed" value="true" />
+      <created>1727248856835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727248856835</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add: some module from the base template">
+      <option name="closed" value="true" />
+      <created>1727248872994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727248872994</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: width of mainzelliste logo">
+      <option name="closed" value="true" />
+      <created>1727249144875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249144875</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ci: build a redoc api description page">
+      <option name="closed" value="true" />
+      <created>1727386623634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727386623634</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ci: build a redoc api description page">
+      <option name="closed" value="true" />
+      <created>1727386806788</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727386806788</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ci: build a redoc api description page">
+      <option name="closed" value="true" />
+      <created>1727386814081</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727386814081</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ci: build a redoc api description page">
+      <option name="closed" value="true" />
+      <created>1727387224503</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727387224503</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ci: build a redoc api description page">
+      <option name="closed" value="true" />
+      <created>1727387533662</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727387533662</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ci: build a redoc api description page">
+      <option name="closed" value="true" />
+      <created>1727423145873</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727423145873</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +203,9 @@
     <MESSAGE value="refactor: move app to src" />
     <MESSAGE value="refactor: update templates" />
     <MESSAGE value="refactor: update next js template, change base color and logo size, add 'features' to menu and fix base image path" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: update next js template, change base color and logo size, add 'features' to menu and fix base image path" />
+    <MESSAGE value="add: some module from the base template" />
+    <MESSAGE value="fix: width of mainzelliste logo" />
+    <MESSAGE value="ci: build a redoc api description page" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: build a redoc api description page" />
   </component>
 </project>
