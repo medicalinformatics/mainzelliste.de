@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/nextjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nextjs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
       <workItem from="1727247496720" duration="2250000" />
-      <workItem from="1727386379479" duration="7698000" />
+      <workItem from="1727386379479" duration="9947000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -253,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727425859418</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add: api documentation to menu">
+      <option name="closed" value="true" />
+      <created>1727426692827</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727426692827</updated>
+    </task>
+    <task id="LOCAL-00024" summary="change: disable theme toggler and change default theme to 'light'">
+      <option name="closed" value="true" />
+      <created>1727427205755</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1727427205755</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +297,7 @@
     <MESSAGE value="ci: build a redoc api description page" />
     <MESSAGE value="ci: add a new job in next.js workflow to build a redoc api documentation page" />
     <MESSAGE value="add: api documentation to menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: api documentation to menu" />
+    <MESSAGE value="change: disable theme toggler and change default theme to 'light'" />
+    <option name="LAST_COMMIT_MESSAGE" value="change: disable theme toggler and change default theme to 'light'" />
   </component>
 </project>
