@@ -5,9 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/2019-05-28-first-blog-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/2019-05-29-long-blog-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/2021-08-01-mdx-blog-post.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/2021-08-26-welcome/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/authors.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/blog/tags.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/congratulations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/create-a-blog-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/create-a-document.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/create-a-page.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/deploy-your-site.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-basics/markdown-features.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-extras/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-extras/img/docsVersionDropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-extras/img/localeDropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-extras/manage-docs-versions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docs/tutorial-extras/translate-your-site.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/docusaurus.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/sidebars.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/src/components/HomepageFeatures/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/src/components/HomepageFeatures/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/src/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/src/pages/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/src/pages/index.tsx.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/src/pages/markdown-page.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/docusaurus-social-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/docusaurus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/mainzelliste-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/undraw_docusaurus_mountain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/undraw_docusaurus_react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/static/img/undraw_docusaurus_tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainzelliste-doc/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +88,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/experiment/project/mainzelliste.site/src/app",
+    "last_opened_file_path": "C:/experiment/project/mainzelliste.site/mainzelliste-doc/static/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +103,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\experiment\project\mainzelliste.site\mainzelliste-doc\static\img" />
       <recent name="C:\experiment\project\mainzelliste.site\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +121,7 @@
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
       <workItem from="1727247496720" duration="2250000" />
-      <workItem from="1727386379479" duration="13760000" />
+      <workItem from="1727386379479" duration="19274000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -305,7 +347,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727436960295</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add: imprint and data privacy protection">
+      <option name="closed" value="true" />
+      <created>1727437276643</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1727437276643</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add: icon to API-Doc menu item">
+      <option name="closed" value="true" />
+      <created>1727440799850</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1727440799850</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +394,7 @@
     <MESSAGE value="change: change favicon size and add it to redoc page" />
     <MESSAGE value="fix: add favicon to /app folder" />
     <MESSAGE value="add: imprint and data privacy protection" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: imprint and data privacy protection" />
+    <MESSAGE value="add: icon to API-Doc menu item" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: icon to API-Doc menu item" />
   </component>
 </project>
