@@ -7,7 +7,7 @@ name: Deploy Next.js site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["develop"]
+    branches: ["feature/docs"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -79,6 +79,8 @@ jobs:
         run: npx @redocly/cli build-docs https://bitbucket.org/medicalinformatics/mainzelliste/raw/development/resources/Mainzelliste.OpenApi.Spec.yaml -o out/api-doc/index.html
       - name: add favicon to redoc page
         run: sed -i '7 i \ \ <link rel="icon" type="image/gif" href="../favicon.ico"/>' out/api-doc/index.html
+      - name: Build website
+        run: cd mainzelliste-doc && npm run build && ls
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "cd mainzelliste-doc && npm ci"
   },
   "dependencies": {
     "eslint": "^8.56.0",
