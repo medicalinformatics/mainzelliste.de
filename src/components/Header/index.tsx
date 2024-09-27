@@ -69,28 +69,29 @@ const Header = () => {
         $home.className = "text-primary dark:text-white"
         $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $apiDoc.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "features": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $features.className = "text-primary dark:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $apiDoc.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "contact": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-primary dark:text-white"
-        $apiDoc.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "apiDoc": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $apiDoc.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        // "flex items-center py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
+        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       default: {
@@ -185,8 +186,13 @@ const Header = () => {
                           id={"apiDoc_"}
                           href="/api-doc"
                           target="_blank"
-                          className="flex py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
-                      >API Doc</Link>
+                          className="flex items-center py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
+                      >API Doc <svg width="13.5" height="13.5" aria-hidden="true"
+                                    viewBox="0 0 24 24"
+                                    className="ml-1.5">
+                        <path fill="currentColor"
+                              d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path>
+                      </svg></Link>
                     </li>
                   </ul>
                 </nav>
