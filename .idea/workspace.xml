@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/nextjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nextjs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
       <workItem from="1727247496720" duration="2250000" />
-      <workItem from="1727386379479" duration="5325000" />
+      <workItem from="1727386379479" duration="7698000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -220,7 +221,39 @@
       <option name="project" value="LOCAL" />
       <updated>1727423938306</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727424132272</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727424132272</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727424375876</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727424375876</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727424421975</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727424421975</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add: api documentation to menu">
+      <option name="closed" value="true" />
+      <created>1727425859418</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727425859418</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +279,7 @@
     <MESSAGE value="fix: width of mainzelliste logo" />
     <MESSAGE value="ci: build a redoc api description page" />
     <MESSAGE value="ci: add a new job in next.js workflow to build a redoc api documentation page" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: add a new job in next.js workflow to build a redoc api documentation page" />
+    <MESSAGE value="add: api documentation to menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: api documentation to menu" />
   </component>
 </project>
