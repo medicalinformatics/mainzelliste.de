@@ -74,7 +74,7 @@
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
       <workItem from="1727247496720" duration="2250000" />
-      <workItem from="1727386379479" duration="4979000" />
+      <workItem from="1727386379479" duration="5325000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -188,7 +188,39 @@
       <option name="project" value="LOCAL" />
       <updated>1727423479463</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727423829106</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727423829106</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727423853123</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727423853123</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727423913629</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727423913629</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ci: add a new job in next.js workflow to build a redoc api documentation page">
+      <option name="closed" value="true" />
+      <created>1727423938306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727423938306</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +245,7 @@
     <MESSAGE value="add: some module from the base template" />
     <MESSAGE value="fix: width of mainzelliste logo" />
     <MESSAGE value="ci: build a redoc api description page" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: build a redoc api description page" />
+    <MESSAGE value="ci: add a new job in next.js workflow to build a redoc api documentation page" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: add a new job in next.js workflow to build a redoc api documentation page" />
   </component>
 </project>

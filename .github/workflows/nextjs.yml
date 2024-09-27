@@ -75,24 +75,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: build doc
+        run: npx @redocly/cli build-docs https://bitbucket.org/medicalinformatics/mainzelliste/raw/development/resources/Mainzelliste.OpenApi.Spec.yaml -o out/api-doc/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-
-  build_redoc:
-    runs-on: ubuntu-latest
-    needs: build
-    name: Build redoc
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: build doc
-        run: npx @redocly/cli build-docs https://bitbucket.org/medicalinformatics/mainzelliste/raw/development/resources/Mainzelliste.OpenApi.Spec.yaml -o out/openapi/mainzelliste-api.html
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out/openapi
 
   # Deployment job
   deploy:
@@ -100,7 +88,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build_redoc
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
