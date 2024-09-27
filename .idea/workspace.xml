@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\experiment\project\mainzelliste.site\src\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\experiment\project\mainzelliste.site\src" />
     </key>
@@ -75,7 +79,7 @@
       <workItem from="1727080153618" duration="2052000" />
       <workItem from="1727082295564" duration="721000" />
       <workItem from="1727247496720" duration="2250000" />
-      <workItem from="1727386379479" duration="10835000" />
+      <workItem from="1727386379479" duration="13760000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -285,7 +289,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727429323401</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix: add favicon to /app folder">
+      <option name="closed" value="true" />
+      <created>1727429860794</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727429860794</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add: imprint and data privacy protection">
+      <option name="closed" value="true" />
+      <created>1727436960295</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727436960295</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +334,8 @@
     <MESSAGE value="add: api documentation to menu" />
     <MESSAGE value="change: disable theme toggler and change default theme to 'light'" />
     <MESSAGE value="change: change favicon size and add it to redoc page" />
-    <option name="LAST_COMMIT_MESSAGE" value="change: change favicon size and add it to redoc page" />
+    <MESSAGE value="fix: add favicon to /app folder" />
+    <MESSAGE value="add: imprint and data privacy protection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: imprint and data privacy protection" />
   </component>
 </project>

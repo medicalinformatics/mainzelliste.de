@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 .idea/sonarlint/
+.idea/workspace.xml
 
 # debug
 npm-debug.log*

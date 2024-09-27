@@ -12,7 +12,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full flex px-4 mb-6">
+            <div className="w-full flex justify-between px-4 mb-6">
               <div className="w-[200px] flex-shrink-0 items-center">
                 <Link href="/" className="inline-block">
                   <Image
@@ -30,10 +30,22 @@ const Footer = () => {
                     height={40}
                   />
                 </Link>
-
-
               </div>
-              <div className="items-center flex ml-auto mb-2 w-[130px] px-4">
+              <div className="self-center items-center flex mb-2">
+                <a
+                    href="https://www.dkfz.de/en/impressum.html"
+                    target="_blank"
+                    aria-label="social-link"
+                    className="dark:text-body-color-dark mr-4 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                >Imprint</a>
+                <a
+                    href="https://www.dkfz.de/en/data-privacy-protection.html"
+                    target="_blank"
+                    aria-label="social-link"
+                    className="dark:text-body-color-dark ml-4 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                >Data privacy protection</a>
+              </div>
+              <div className="items-center flex mb-2 pl-4 pr-16">
                 <a
                     href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
                     rel="noopener noreferrer"
