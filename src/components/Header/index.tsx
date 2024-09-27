@@ -32,6 +32,7 @@ const Header = () => {
   let $features: HTMLElement;
   let $contact: HTMLElement;
   let $apiDoc: HTMLElement;
+  let $docs: HTMLElement;
 
   if (typeof document !== 'undefined') {
     sections = document.querySelectorAll("section[id]");
@@ -39,6 +40,7 @@ const Header = () => {
     $features = document.getElementById('features_');
     $contact = document.getElementById('contact_');
     $apiDoc = document.getElementById('apiDoc_');
+    $docs = document.getElementById('docs_');
     window.addEventListener("scroll", navHighlighter);
   }
 
@@ -70,6 +72,7 @@ const Header = () => {
         $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $docs.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "features": {
@@ -77,6 +80,7 @@ const Header = () => {
         $features.className = "text-primary dark:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $docs.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "contact": {
@@ -84,14 +88,23 @@ const Header = () => {
         $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-primary dark:text-white"
         $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $docs.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       case "apiDoc": {
         $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        // "flex items-center py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
         $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $docs.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        break;
+      }
+      case "docs": {
+        $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+        $docs.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
         break;
       }
       default: {
@@ -182,6 +195,14 @@ const Header = () => {
                       </li>
                     ))}
                     <li key={menuData.length} className="group relative">
+                      <Link
+                          id={"docs_"}
+                          href="/docs"
+                          target="_blank"
+                          className="py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
+                      >Documentation</Link>
+                    </li>
+                    <li key={menuData.length + 1} className="group relative">
                       <Link
                           id={"apiDoc_"}
                           href="/api-doc"

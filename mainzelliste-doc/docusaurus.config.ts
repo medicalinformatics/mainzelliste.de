@@ -60,10 +60,10 @@ const config: Config = {
     image: 'img/mainzelliste-logo.jpg',
     navbar: {
       hideOnScroll: false,
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Mainzelliste Logo',
+        src: 'img/mainzelliste-logo.png',
+        href: 'https://medicalinformatics.github.io/mainzelliste.de/'
       },
       items: [
         {
@@ -73,12 +73,17 @@ const config: Config = {
           label: 'Tutorial',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://medicalinformatics.github.io/mainzelliste.de/api-doc/',
+          label: 'API Doc',
+          position: 'right',
+        },
       ],
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     footer: {
       style: 'dark',
