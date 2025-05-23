@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Mainzelliste offers an integrated suite of tools designed to ensure compliance with ethical and legal data protection standards."
             center
           />
 

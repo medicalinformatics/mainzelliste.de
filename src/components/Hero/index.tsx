@@ -16,8 +16,7 @@ const Hero = () => {
                   Mainzelliste
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  {/*Die Mainzelliste ist ein webbasierter Pseudonymisierungsdienst, welcher die Erzeugung von Personenidentifikatoren (PID) aus identifizierenden Attributen (IDAT) erlaubt. Dank der Record-Linkage-Funktionalität ist dies auch bei wechselnder Qualität der identifizierenden Daten möglich. Ihre Funktionen werden über eine REST-Schnittstelle bereitgestellt, die besonders flexible Integration durch andere Software ermöglicht.*/}
-                  The Mainzelliste is a web-based pseudonymization service that allows the generation of personal identifiers (PID) from identifying attributes (IDAT). Thanks to the record linkage functionality, this is possible even when the quality of the identifying data changes. Their functions are implemented via a REST interface.
+                  Mainzelliste is a web-based pseudonymisation tool used for generating and managing the pseudonyms from identifying data which supports multiple ways of secure, error-tolerant record linkage. In addition, it provides the ability to manage informed consent
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-20 sm:space-y-0">
                 <Link
