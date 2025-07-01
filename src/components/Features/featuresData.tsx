@@ -12,7 +12,7 @@ const featuresData: Feature[] = [
     ),
     title: "ID Management",
     paragraph:
-      "Mainzelliste facilitates the generation of user-friendly pseudonyms and the storage of external identifiers. It also supports multi-ID types, which allows the generation of multiple identifiers of the same type linked to a single person. These IDs are especially used for pseudonymizing e.g. biological samples or medical data collected during a clinical visit Furthermore, the dynamic generation of non-persisted pseudonyms using a symmetric encryption mechanism allows secure data transfer for an approved data usage in a 3rd-party research project.",
+      "Mainzelliste facilitates the generation of user-friendly pseudonyms and the storage of external identifiers. It also allows the generation of multiple identifiers of the same type linked to a single person. Especially used for pseudonymizing e.g. biological samples or medical data collected during a clinical visit.",
   },
   {
     id: 1,
@@ -25,7 +25,7 @@ const featuresData: Feature[] = [
     ),
     title: "Duplicate detection",
     paragraph:
-      "Fault-tolerant record linkage ensures the reliable matching of identifying data (IDAT) across different sources despite inconsistencies such as spelling errors or missing fields. Using configurable similarity thresholds, the system accurately links records belonging to the same individual. Additionally, it offers the ability to flag uncertain matches for manual review or further clarification, ensuring both precision and flexibility in the data integration process.",
+      "Fault-tolerant record linkage ensures the reliable matching of identifying data (IDAT) across different sources despite inconsistencies such as spelling errors or missing fields. Using configurable similarity thresholds, the system accurately links records belonging to the same individual.",
   },
   {
     id: 1,
@@ -38,7 +38,7 @@ const featuresData: Feature[] = [
     ),
     title: "Identity Management",
     paragraph:
-      "The identity list offers a intuitive interface for managing identifying data, allowing users modify identifying fields or delete patient records. It includes a searchable patient list that supports queries based on IDs or specific field values, making it easy to locate individual records. Additionally, the system provides export functionality, enabling efficient handling of re-identification requests.",
+      "The patient list offers an intuitive interface for managing identifying data, allowing users to modify identifying fields or delete patient records. It includes a searchable patient list that supports queries based on IDs or specific field values, making it easy to locate individual records",
   },
   {
     id: 1,
@@ -52,7 +52,7 @@ const featuresData: Feature[] = [
     ),
     title: "Consent Management",
     paragraph:
-      "Mainzellist.",
+      "Supports processing and withdrawal of modular informed consents, accommodating digital and scanned paper-based formats. It also provides a FHIR-compliant API to create, search, and delete consents programmatically, enabling easy integration with external systems.",
   },
   {
     id: 1,
