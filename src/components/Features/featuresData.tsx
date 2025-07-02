@@ -63,9 +63,9 @@ const featuresData: Feature[] = [
         <path d="M13 15.7324C13.5978 15.3866 14 14.7403 14 14C14 12.8954 13.1046 12 12 12C10.8954 12 10 12.8954 10 14C10 14.7403 10.4022 15.3866 11 15.7324V17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V15.7324Z" fill="#152C70"/>
       </svg>
     ),
-    title: "Multi Tenancy and granular permissions",
+    title: "Multitenancy",
     paragraph:
-      "Multitenancy",
+      "The Multitenancy software architecture with granular permission allows to support multiple studies or projects — \"tenants\" — within a single software instance. This approach reduces maintenance overhead and operational costs. Each tenant has access only to its own patients data and benefits from highly configurable access control.",
   },
   {
     id: 1,
@@ -77,7 +77,7 @@ const featuresData: Feature[] = [
     ),
     title: "More flexible integration",
     paragraph:
-      "Mainzelliste utilizes tokens to authorize specific actions within the patient list, such as requesting a PID for a new patient. These tokens not only ensure secure access to sensitive operations but also enable the delegation of authentication, allowing authorized users or systems to perform tasks on behalf of others without compromising security. Mainzelliste also supports redirects and callbacks, providing real-time notifications after executing operations, ensuring smooth workflow transitions. Integrated HTML pages offer base functionality, enhancing the user experience with streamlined access and interactions. To ensure confidentiality during data transfer, Mainzelliste employs asymmetric encryption, which protects pseudonyms during the transmission process.",
+      "Clients can generate tokens to authorize specific actions or delegate authentication, allowing trusted users or systems to securely perform tasks on behalf of others. Mainzelliste also supports redirects and callbacks, enabling real-time notifications upon the completion of specific operations.",
   },
 ];
 export default featuresData;
