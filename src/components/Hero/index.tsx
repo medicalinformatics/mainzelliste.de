@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Screenshot from "./screenshot";
+import BashCode from "@/components/Common/bashCode";
 
 const Hero = () => {
   return (
@@ -18,8 +19,9 @@ const Hero = () => {
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Mainzelliste is a web-based pseudonymisation tool used for generating and managing the pseudonyms from identifying data which supports multiple ways of secure, error-tolerant record linkage. In addition, it provides the ability to manage informed consent
                 </p>
+                <BashCode />
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-20 sm:space-y-0">
-                <Link
+                  <Link
                     href="https://github.com/medicalinformatics/mainzelliste-gui"
                     target="_blank"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"

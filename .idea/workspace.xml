@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="">
+    <list default="true" id="d24c4d50-575e-4f5d-9e13-04960cc44f85" name="Changes" comment="change: update main features multiteancy and flexible integration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
+    <option name="groupingKeys" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -25,6 +23,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="text: update main features and introduction" />
+        <option name="rewordedMessage" value="change: update main features and introduction and open api documentation" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="b582e27190f52a8a3d2d9113adf44014d8873f2a" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -116,6 +128,13 @@
       <workItem from="1748266720231" duration="206000" />
       <workItem from="1748266970766" duration="598000" />
       <workItem from="1748409128548" duration="2537000" />
+      <workItem from="1748601468257" duration="977000" />
+      <workItem from="1751377024678" duration="6003000" />
+      <workItem from="1751456373574" duration="1962000" />
+      <workItem from="1752238905652" duration="1122000" />
+      <workItem from="1753106811120" duration="1154000" />
+      <workItem from="1753170373288" duration="711000" />
+      <workItem from="1753255974260" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="add: update next js template">
       <option name="closed" value="true" />
@@ -365,7 +384,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748016409859</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="change: update main features and introduction and open api documentation">
+      <option name="closed" value="true" />
+      <created>1748601714824</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1748601714824</updated>
+    </task>
+    <task id="LOCAL-00033" summary="change: update main features">
+      <option name="closed" value="true" />
+      <created>1751379729615</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1751379729615</updated>
+    </task>
+    <task id="LOCAL-00034" summary="change: update main features multiteancy and flexible integration">
+      <option name="closed" value="true" />
+      <created>1751449816205</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1751449816205</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,8 +440,11 @@
     <MESSAGE value="fix: add favicon to /app folder" />
     <MESSAGE value="add: imprint and data privacy protection" />
     <MESSAGE value="text: update main features and introduction" />
-    <MESSAGE value="doc: update open api documentation" />
     <MESSAGE value="fix: url of open api file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: url of open api file" />
+    <MESSAGE value="doc: update open api documentation" />
+    <MESSAGE value="change: update main features and introduction and open api documentation" />
+    <MESSAGE value="change: update main features" />
+    <MESSAGE value="change: update main features multiteancy and flexible integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="change: update main features multiteancy and flexible integration" />
   </component>
 </project>
