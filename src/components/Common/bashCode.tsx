@@ -31,7 +31,7 @@ docker compose up -d
           Try it
         </h2>
         <div style={{ position: 'relative' }}>
-          <button
+          <button className="hover:bg-gray-200"
               onClick={copyToClipboard}
               style={{
                 position: 'absolute',
@@ -41,17 +41,15 @@ docker compose up -d
                 fontSize: 12,
                 cursor: 'pointer',
                 borderRadius: 4,
-                border: '1px solid #ccc',
-                backgroundColor: copied ? '#3c9a41' : '#eee',
-                color: copied ? '#fff' : '#000',
                 transition: 'background-color 0.3s',
                 zIndex: 1,
               }}
           >
-            {copied ? 'Copied!' : 'Copy'}
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360Zm0-80h360v-480H360v480ZM200-80q-33 0-56.5-23.5T120-160v-560h80v560h440v80H200Zm160-240v-480 480Z"/></svg>
+            {/*{copied ? 'Copied!' : 'Copy'}*/}
           </button>
 
-          <SyntaxHighlighter language="bash" wrapLongLines={true} style={oneLight} customStyle={{ paddingTop: 10 }}>
+          <SyntaxHighlighter language="bash" wrapLongLines={true} style={oneLight} customStyle={{paddingTop:15, paddingBottom:15, paddingRight: 20, paddingLeft: 20, border: '1px solid #cccccc', borderRadius: 10 }}>
             {bashCode}
           </SyntaxHighlighter>
         </div>
