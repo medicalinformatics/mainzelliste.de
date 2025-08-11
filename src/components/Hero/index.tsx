@@ -20,22 +20,6 @@ const Hero = () => {
                   Mainzelliste is a web-based pseudonymisation tool used for generating and managing the pseudonyms from identifying data which supports multiple ways of secure, error-tolerant record linkage. In addition, it provides the ability to manage informed consent
                 </p>
                 <BashCode />
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-20 sm:space-y-0">
-                  <Link
-                    href="https://github.com/medicalinformatics/mainzelliste-gui"
-                    target="_blank"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Frontend
-                  </Link>
-                  <Link
-                    href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
-                    target="_blank"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Backend
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

@@ -46,52 +46,6 @@ const Footer = () => {
                 >Data privacy protection</a>
               </div>
               <div className="items-center flex mb-2 pl-4 pr-16">
-                <a
-                    href="https://bitbucket.org/medicalinformatics/mainzelliste/src/master/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                  >
-                    <Image
-                      className="block"
-                      src={getBasePath() + "/images/footer/bitbucket-logo.png"}
-                      alt="bitbucket"
-                      width={30}
-                      height={30}
-                    />
-                  </a>
-                  <a
-                    href="https://github.com/medicalinformatics/mainzelliste-gui"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    aria-label="social-link"
-                    className="float-right"
-                  >
-                    <Image
-                      className="hidden dark:block"
-                      src={getBasePath() + "/images/footer/github-mark-light.png"}
-                      alt="github"
-                      width={30}
-                      height={30}
-                      style={{
-                        width: 30,
-                        height: 30
-                      }}
-
-                    />
-                    <Image
-                      className="block dark:hidden"
-                      src={getBasePath() + "/images/footer/github-mark.png"}
-                      alt="github"
-                      width={30}
-                      height={30}
-                      style={{
-                        width: 30,
-                        height: 30
-                      }}
-                    />
-                  </a>
               </div>
             </div>
           </div>
