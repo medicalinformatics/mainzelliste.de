@@ -27,7 +27,7 @@ docker compose up -d
 
   return (
       <div style={{ padding: 20, backgroundColor: '#fff', color: '#000', maxWidth: 750, margin: 'auto' }}>
-        <h2 className="mb-1 text-start text-xl text-body-color sm:text-2xl font-thin">
+        <h2 className="mb-1 text-start text-xl text-body-color sm:text-2xl font-light">
           Try it
         </h2>
         <div style={{ position: 'relative' }}>

@@ -16,7 +16,7 @@ const Hero = () => {
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Mainzelliste
                 </h1>
-                <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
+                <p className="dark:text-body-color-dark mb-8 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Mainzelliste is a web-based pseudonymisation tool used for generating and managing the pseudonyms from identifying data which supports multiple ways of secure, error-tolerant record linkage. In addition, it provides the ability to manage informed consent
                 </p>
                 <BashCode />
