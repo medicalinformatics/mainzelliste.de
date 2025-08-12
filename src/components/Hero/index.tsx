@@ -17,7 +17,7 @@ const Hero = () => {
                   Mainzelliste
                 </h1>
                 <p className="dark:text-body-color-dark mb-8 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Mainzelliste is a web-based pseudonymisation tool used for generating and managing the pseudonyms from identifying data which supports multiple ways of secure, error-tolerant record linkage. In addition, it provides the ability to manage informed consent
+                  Mainzelliste is an open-source tool for pseudonymization, record linkage, and consent management in research and healthcare settings. It securely generates and manages pseudonyms from identifying data, enabling error-tolerant record linkage across multiple sources.
                 </p>
                 <BashCode />
               </div>
