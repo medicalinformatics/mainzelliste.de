@@ -8,10 +8,10 @@ const Screenshot = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="relative mx-auto aspect-[1374/824]"
+                className="relative mx-auto aspect-[856/400]  max-w-[856px] max-h-[400px]"
               >
                 <Image
-                    src={getBasePath() + "/images/hero/mainzelliste-ui-screenshot-browser.png"}
+                    src={getBasePath() + "/images/hero/mainzelliste-overview.png"}
                     alt="ui-screenshot"
                     fill
                     className="shadow-2xl mx-auto max-w-full dark:drop-shadow-none lg:mr-0 rounded-lg"
