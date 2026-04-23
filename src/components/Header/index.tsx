@@ -26,93 +26,45 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
-
-  let sections: NodeListOf<Element>;
-  let $home: HTMLElement;
-  let $features: HTMLElement;
-  let $publications: HTMLElement;
-  let $contact: HTMLElement;
-  let $apiDoc: HTMLElement;
-
-  if (typeof document !== 'undefined') {
-    sections = document.querySelectorAll("section[id]");
-    $home = document.getElementById('home_');
-    $features = document.getElementById('features_');
-    $publications = document.getElementById('publications_');
-    $contact = document.getElementById('contact_');
-    $apiDoc = document.getElementById('apiDoc_');
-    window.addEventListener("scroll", navHighlighter);
-  }
-
-  function navHighlighter() {
-
-    let scrollY = window.scrollY;
-    let bool = false;
-
-    sections.forEach(current => {
-      if(!bool) {
-        const sectionHeight = current.scrollHeight - 300;
-        if ( (window.innerHeight + scrollY) >= document.body.offsetHeight - 2 ) {
-          updateHeader("contact");
-          bool = true;
-        } else if (scrollY < sectionHeight) {
-          updateHeader(current.getAttribute("id"));
-          bool = true;
-    } else {
-          scrollY -= (sectionHeight + 300);
+  useEffect(() => {
+    const active = "text-primary dark:text-white";
+    const inactive = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white";
+    const inactiveLink = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white";
+ 
+    function updateHeader(section: string) {
+      const els: Record<string, HTMLElement | null> = {
+        home:         document.getElementById('home_'),
+        features:     document.getElementById('features_'),
+        contact:      document.getElementById('contact_'),
+        publications: document.getElementById('publications_'),
+        usecases:     document.getElementById('usecases_'),
+        apiDoc:       document.getElementById('apiDoc_'),
+      };
+      Object.entries(els).forEach(([key, el]) => {
+        if (el) el.className = key === 'apiDoc' ? inactiveLink : inactive;
+      });
+      const target = els[section];
+      if (target) {
+        target.className = section === 'apiDoc'
+          ? "flex items-center " + active
+          : active;
+      }
+    }
+ 
+    function navHighlighter() {
+      const sections = document.querySelectorAll("section[id]");
+      let current = "home";
+      sections.forEach(section => {
+        if (section.getBoundingClientRect().top <= 120) {
+          current = section.getAttribute("id") ?? current;
         }
+      });
+      updateHeader(current);
     }
-    });
-  }
-
-  function updateHeader(section: string) {
-    switch (section) {
-      case "home": {
-        $home.className = "text-primary dark:text-white"
-        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $publications.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        break;
-      }
-      case "features": {
-        $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $features.className = "text-primary dark:text-white"
-        $publications.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        break;
-      }
-      case "publications": {
-        $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $publications.className = "text-primary dark:text-white"
-        $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        break;
-      }
-      case "contact": {
-        $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $publications.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $contact.className = "text-primary dark:text-white"
-        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        break;
-      }
-      case "apiDoc": {
-        $home.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $features.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $publications.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        $contact.className = "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        // "flex items-center py-2 text-lg lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 transition-transform cursor-pointer"
-        $apiDoc.className = "flex items-center text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-        break;
-      }
-      default: {
-        break;
-      }
-    }
-  }
+ 
+    window.addEventListener("scroll", navHighlighter);
+    return () => window.removeEventListener("scroll", navHighlighter);
+  }, []);
 
 
   return (

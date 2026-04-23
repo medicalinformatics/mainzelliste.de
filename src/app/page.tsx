@@ -6,6 +6,7 @@ import {Metadata} from "next";
 import Features from "@/components/Features";
 import Publications from "@/components/Publications";
 import Brands from "@/components/Brands";
+import UseCaseCarousel from "@/components/UseCases";
 
 export const metadata: Metadata = {
   title: "Mainzelliste",
@@ -18,6 +19,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
+      <UseCaseCarousel />
       <Features />
       <Brands />
       <Publications />
