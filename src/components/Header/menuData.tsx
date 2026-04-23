@@ -7,6 +7,11 @@ const menuData: Menu[] = [
     path: "home",
   },
   {
+    id: "usecases",
+    title: "Use Cases",
+    path: "usecases",
+  },
+  {
     id: "features",
     title: "Features",
     path: "features",
