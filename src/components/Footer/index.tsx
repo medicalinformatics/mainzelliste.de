@@ -32,12 +32,10 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="self-center items-center flex mb-2">
-                <a
-                    href="https://www.dkfz.de/en/impressum.html"
-                    target="_blank"
-                    aria-label="social-link"
-                    className="dark:text-body-color-dark mr-4 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                >Imprint</a>
+                <Link href="/imprint"
+                      className="dark:text-body-color-dark mr-4 text-body-color duration-300 hover:text-primary dark:hover:text-primary">
+                  Imprint
+                </Link>
                 <a
                     href="https://www.dkfz.de/en/data-privacy-protection.html"
                     target="_blank"

@@ -3,9 +3,11 @@ import Link from "next/link";
 const Breadcrumb = ({
   pageName,
   description,
+  showNav
 }: {
   pageName: string;
   description: string;
+  showNav: boolean;
 }) => {
   return (
     <>
@@ -22,6 +24,7 @@ const Breadcrumb = ({
                 </p>
               </div>
             </div>
+            {showNav && (
             <div className="w-full px-4 md:w-4/12 lg:w-5/12">
               <div className="text-end">
                 <ul className="flex items-center md:justify-end">
@@ -40,6 +43,7 @@ const Breadcrumb = ({
                 </ul>
               </div>
             </div>
+            )}
           </div>
         </div>
 
