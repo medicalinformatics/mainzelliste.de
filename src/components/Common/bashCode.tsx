@@ -59,7 +59,7 @@ docker compose up -d
 
   return (
       <div style={{ padding: 20, color: '#000', maxWidth: 750, margin: 'auto' }}>
-        <h2 className="mb-1 text-start text-xl text-body-color sm:text-2xl font-light">
+        <h2 className="dark:text-body-color-dark mb-1 text-start text-xl text-body-color sm:text-2xl font-light">
           Try it
         </h2>
         <div style={{ position: 'relative' }}>
@@ -85,7 +85,7 @@ docker compose up -d
             {bashCode}
           </SyntaxHighlighter>
         </div>
-        <div  className="text-start text-body-color text-sm">
+        <div className="text-start dark:text-body-color-dark text-body-color text-sm">
           Run the command in your terminal. For more details, refer to our <a
             target="_blank" className="underline" href="https://github.com/medicalinformatics/mainzelliste-gui/tree/main?tab=readme-ov-file#running-on-linux">Getting Started</a> section.
         </div >
