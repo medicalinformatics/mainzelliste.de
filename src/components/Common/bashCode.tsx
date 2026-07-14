@@ -25,14 +25,46 @@ docker compose up -d
     });
   };
 
+  const customOneLight = {
+    ...oneLight,
+    variable: {...oneLight.variable, color: '#2868F0'},
+    operator: {...oneLight.operator, color: '#2868F0'},
+    function: {...oneLight.function, color: '#2868F0'},
+    'attr-name': {...oneLight['attr-name'], color: '#A76201'},
+    'class-name': {...oneLight['class-name'], color: '#A76201'},
+    boolean: {...oneLight.boolean, color: '#A76201'},
+    constant: {...oneLight.constant, color: '#A76201'},
+    number: {...oneLight.number, color: '#A76201'},
+    atrule: {...oneLight.atrule, color: '#A76201'},
+    '.language-json .token.null.keyword': {
+      ...oneLight['.language-json .token.null.keyword'],
+      color: '#A76201',
+    },
+    '.language-markdown .token.bold .token.content': {
+      ...oneLight['.language-markdown .token.bold .token.content'],
+      color: '#A76201',
+    },
+    comment: { ...oneLight.comment, color: '#71717A' },
+    prolog: { ...oneLight.prolog, color: '#71717A' },
+    cdata: { ...oneLight.cdata, color: '#71717A' },
+    '.language-markdown .token.blockquote.punctuation': {
+      ...oneLight['.language-markdown .token.blockquote.punctuation'],
+      color: '#71717A',
+    },
+    '.language-markdown .token.hr.punctuation': {
+      ...oneLight['.language-markdown .token.hr.punctuation'],
+      color: '#71717A',
+    },
+  };
+
   return (
       <div style={{ padding: 20, color: '#000', maxWidth: 750, margin: 'auto' }}>
         <h2 className="mb-1 text-start text-xl text-body-color sm:text-2xl font-light">
           Try it
         </h2>
         <div style={{ position: 'relative' }}>
-          <button className="hover:bg-gray-200"
-              onClick={copyToClipboard}
+          <button title="copy shell command" className="hover:bg-gray-200"
+                  onClick={copyToClipboard}
               style={{
                 position: 'absolute',
                 right: 8,
@@ -49,7 +81,7 @@ docker compose up -d
             {/*{copied ? 'Copied!' : 'Copy'}*/}
           </button>
 
-          <SyntaxHighlighter language="bash" wrapLongLines={true} style={oneLight} customStyle={{paddingTop:15, paddingBottom:15, paddingRight: 20, paddingLeft: 20, border: '1px solid #cccccc', borderRadius: 10 }}>
+          <SyntaxHighlighter language="bash" wrapLongLines={true} style={customOneLight} customStyle={{paddingTop:15, paddingBottom:15, paddingRight: 20, paddingLeft: 20, border: '1px solid #cccccc', borderRadius: 10 }}>
             {bashCode}
           </SyntaxHighlighter>
         </div>
