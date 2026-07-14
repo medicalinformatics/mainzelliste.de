@@ -53,7 +53,7 @@ docker compose up -d
             {bashCode}
           </SyntaxHighlighter>
         </div>
-        <div  className="text-start text-body-color-dark text-sm">
+        <div  className="text-start text-body-color text-sm">
           Run the command in your terminal. For more details, refer to our <a
             target="_blank" className="underline" href="https://github.com/medicalinformatics/mainzelliste-gui/tree/main?tab=readme-ov-file#running-on-linux">Getting Started</a> section.
         </div >
