@@ -1,9 +1,12 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import {getBasePath} from "@/app/base-path-loader"
+import {getBasePath} from "@/app/base-path-loader";
+import { useTheme } from "next-themes";
 
 const Footer = () => {
+  const { theme } = useTheme();
+
   return (
     <>
       <footer
@@ -16,16 +19,9 @@ const Footer = () => {
               <div className="w-[200px] flex-shrink-0 items-center">
                 <Link href="/" className="inline-block">
                   <Image
-                    src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
-                    alt="logo"
-                    className="w-full hidden dark:block"
-                    width={149}
-                    height={40}
-                  />
-                  <Image
-                    src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
-                    alt="logo"
-                    className="w-full block dark:hidden"
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650" + (theme === "light" ? "" : "-light") + ".png"}
+                    alt="Mainzelliste logo"
+                    className="w-full block"
                     width={149}
                     height={40}
                   />

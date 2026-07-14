@@ -5,9 +5,12 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { Link as ScrollLink } from "react-scroll";
-import {getBasePath} from "@/app/base-path-loader"
+import {getBasePath} from "@/app/base-path-loader";
+import { useTheme } from "next-themes";
 
 const Header = () => {
+  const { theme } = useTheme();
+
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -86,18 +89,11 @@ const Header = () => {
                 } `}
               >
                 <Image
-                    src={getBasePath() + "/images/logo/mainzelliste-logo-650-light.png"}
-                    alt="logo"
-                    className="hidden dark:block"
+                    src={getBasePath() + "/images/logo/mainzelliste-logo-650" + (theme == "light" ? "" : "-light") + ".png"}
+                    alt="Mainzelliste logo"
+                    className="block"
                     width={251}
                     height={46}
-                />
-                <Image
-                    src={getBasePath() + "/images/logo/mainzelliste-logo-650.png"}
-                  alt="logo"
-                    className="block dark:hidden"
-                  width={251}
-                  height={46}
                 />
               </Link>
             </div>
@@ -188,8 +184,8 @@ const Header = () => {
                 >
                   <Image
                       className="hidden dark:block"
-                      src={getBasePath() + "/images/footer/github-mark-light.png"}
-                      alt="github"
+                      src={getBasePath() + "/images/footer/github-mark" + (theme === "light" ? "-light" : "") + ".png"}
+                      alt="github logo"
                       width={30}
                       height={30}
                       style={{
@@ -197,17 +193,6 @@ const Header = () => {
                         height: 30
                       }}
 
-                  />
-                  <Image
-                      className="block dark:hidden"
-                      src={getBasePath() + "/images/footer/github-mark.png"}
-                      alt="github"
-                      width={30}
-                      height={30}
-                      style={{
-                        width: 30,
-                        height: 30
-                      }}
                   />
                 </a>
               </div>
