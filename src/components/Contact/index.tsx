@@ -13,7 +13,7 @@ const Contact = () => {
               <h2 className="mb-3 text-4xl font-bold text-black dark:text-white">
                 Need further information?
               </h2>
-              <p className="mb-11 text-xl font-medium text-body-color">
+              <p className="mb-11 text-xl font-medium dark:text-body-color-dark text-body-color">
                 Contact us via e-mail or subscribe to our newsletter.
               </p>
               <form>

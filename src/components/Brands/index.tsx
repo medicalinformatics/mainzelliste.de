@@ -39,7 +39,7 @@ const SingleBrand = ({ project }: { project: Project }) => {
             href={href}
             target="_b<>lank"
             rel="nofol</>low noreferrer"
-            className="font-bold text-2xl relative w-full opacity-55 transition hover:opacity-100 dark:opacity-30 dark:hover:opacity-100"
+            className="font-bold text-2xl relative w-full opacity-55 transition hover:opacity-100 dark:opacity-40 dark:hover:opacity-100"
         >
           {name}
         </a>

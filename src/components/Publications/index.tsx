@@ -32,14 +32,14 @@ const Publications = () => {
                 <h3 className="mb-1.5 text-base font-semibold leading-snug text-black group-hover:text-primary dark:text-white dark:group-hover:text-primary">
                   {pub.title}
                 </h3>
-                <p className="mb-2 text-sm text-body-color">
+                <p className="mb-2 text-sm dark:text-body-color-dark text-body-color">
                   {pub.authors} &mdash; <span className="italic">{pub.journal}</span>
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {pub.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-stroke px-2.5 py-0.5 text-xs text-body-color dark:border-stroke-dark"
+                      className="rounded-full border border-stroke px-2.5 py-0.5 text-xs dark:text-body-color-dark text-body-color dark:border-stroke-dark"
                     >
                       {tag}
                     </span>
@@ -48,7 +48,7 @@ const Publications = () => {
               </div>
 
               {/* External link icon */}
-              <div className="flex-shrink-0 self-center text-body-color transition-colors group-hover:text-primary">
+              <div className="flex-shrink-0 self-center dark:text-body-color-dark text-body-color transition-colors group-hover:text-primary">
                 <svg
                   width="16"
                   height="16"

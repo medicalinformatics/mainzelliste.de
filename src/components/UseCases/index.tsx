@@ -241,7 +241,7 @@ export default function UseCaseCarousel() {
           <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px]">
             Use Cases
           </h2>
-          <p className="text-base text-body-color">
+          <p className="text-base dark:text-body-color-dark text-body-color">
             Mainzelliste supports a range of pseudonymisation workflows
           </p>
         </div>
@@ -273,7 +273,7 @@ export default function UseCaseCarousel() {
                   <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary">
                     {uc.from}
                   </span>
-                  <svg viewBox="0 0 20 6" className="h-2 w-5 text-body-color" fill="none" aria-hidden="true">
+                  <svg viewBox="0 0 20 6" className="h-2 w-5 dark:text-body-color-dark text-body-color" fill="none" aria-hidden="true">
                     <path d="M0 3h16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                     <path d="M13 1l3 2-3 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
@@ -284,7 +284,7 @@ export default function UseCaseCarousel() {
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                   {uc.title}
                 </h3>
-                <p className="text-base leading-relaxed text-body-color">
+                <p className="text-base leading-relaxed dark:text-body-color-dark text-body-color">
                   {uc.description}
                 </p>
               </div>
