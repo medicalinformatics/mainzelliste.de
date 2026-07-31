@@ -213,8 +213,8 @@ const Header = () => {
                       className="float-right rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                   >
                     <Image
-                        className="hidden dark:block"
-                      src={getBasePath() + "/images/footer/github-mark" + (theme === "light" ? "-light" : "") + ".png"}
+                        className="block"
+                      src={getBasePath() + "/images/footer/github-mark.png"}
                       alt="github logo"
                         width={30}
                         height={30}
