@@ -265,7 +265,7 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-        <Screenshot />
+        {/*<Screenshot />*/}
       </section>
     </>
   );
